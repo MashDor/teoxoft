@@ -1,0 +1,17 @@
+.contract-terms {
+    &__container {
+        display: grid;
+        grid-template-columns: auto auto;
+        max-width: 30vw;
+        grid-gap: 20px;
+        & > input, & > select {
+            height: 30px;
+        }
+    }
+    &__buttons {
+        width: 60vw;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

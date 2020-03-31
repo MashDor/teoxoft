@@ -1,0 +1,14 @@
+.results {
+    &__value {
+        &_is-array {
+            & > * {
+                margin-right: 10px;
+            }
+        }
+    }
+    &__buttons {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,35 @@
+.menu {
+    background-color: $darkpink;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    position: fixed;
+    height: 100vh;
+    &__button {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &:hover, &_active {
+            background-color: #fff;
+            & .menu__icon {
+                fill: $gray;
+            }
+            & .menu__title {
+                color: $gray;
+            }
+        }
+    }
+    &__icon {
+        width: 50px;
+        height: 50px;
+        fill: white
+    }
+    &__title {
+        color: white;
+        font-weight: bold;
+    }
+}

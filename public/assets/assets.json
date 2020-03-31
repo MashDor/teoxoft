@@ -1,0 +1,12 @@
+{
+  "icons": {
+    "js": "js/icons.ba536fd1.js"
+  },
+  "index": {
+    "js": [
+      "js/2.58829f15.chunk.js",
+      "js/index.300758ed.js"
+    ],
+    "css": "css/index.300758ed.css"
+  }
+}

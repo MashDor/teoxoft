@@ -1,0 +1,14 @@
+.button {
+    min-width: 100px;
+    padding: 5px 10px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: $pink;
+    &:disabled {
+        opacity: .5;
+    }
+    &_back {
+        background-color: $darkgray;
+    }
+}

@@ -1,0 +1,47 @@
+.table {
+    width: 60vw;
+    border: 1px solid $gray;
+    &__caption, &__item {
+        display: grid;
+        grid-template-columns: 20% 40% 20% 20%;
+        & > * {
+            padding: 10px 0px 10px 60px;
+        }
+    }
+    &__item {
+        & input {
+            display: none;
+        }
+    }
+    &__caption {
+        background-color: $darkblue;
+        color: white;
+        font-weight: bold;
+    }
+    &__button {
+        position: relative;
+        border-bottom: 1px solid $gray;
+        &:nth-child(2n) {
+            background-color: $lightgray;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+        &_active, &:nth-child(2n).table__button_active {
+            color: white;
+            background-color: $green;
+            & .table__ok {
+                opacity: 1;
+            }
+        }
+    }
+    &__ok {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top: 5px;
+        left: 10px;
+        fill: white;
+        opacity: 0;
+    }
+}

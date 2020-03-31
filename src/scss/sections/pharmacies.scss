@@ -1,0 +1,17 @@
+.pharmacies {
+    &__buttons {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 60vw;
+    }
+    &__header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    &__entity {
+        margin-bottom: 25px;
+        margin-left: 20px;
+    }
+}
