@@ -73,7 +73,7 @@
     "lazysizes": "^5.2.0",
     "leaflet": "^1.6.0",
     "svgo-loader": "^2.2.1",
-    "swiper": "^5.2.1",
+    "swiper": "^6.5.1",
     "vue": "^2.6.11"
   },
   "main": "index.js",
